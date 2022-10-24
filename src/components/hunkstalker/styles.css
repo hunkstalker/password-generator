@@ -1,0 +1,62 @@
+#container {
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#container h1 {
+	padding: 20px;
+	font-size: 46px;
+	text-align: center;
+	color: rgb(255 162 0);
+}
+
+#header {
+	display: flex;
+	justify-content: center;
+	padding: 100px;
+}
+
+#header img {
+	width: 600px;
+}
+
+.card {
+	width: 600px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 25px;
+	background-color: #06b6d4;
+	padding: 15px;
+	margin-top: 15px;
+	box-shadow: 5px 5px 15px #0006;
+}
+
+#input-text {
+	height: 50px;
+	width: 400px;
+	border: 1px 1px 0 1px solid rgb(202 202 202);
+	border-radius: 5px 0 0 5px;
+	margin-top: 30px;
+	padding: 0 25px;
+}
+
+#copy-btn {
+	height: 50px;
+	width: 70px;
+	border: 1px 0 0 0 solid rgb(202 202 202);
+	border-radius: 0 5px 5px 0;
+	background-color: white;
+}
+
+#copy-btn:hover {
+	border: 1px 0 0 0 solid rgb(163 163 163);
+	background-color: rgb(215 215 215);
+}
+
+#input-range {
+	margin-top: 30px;
+}
